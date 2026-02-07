@@ -1,4 +1,4 @@
-# 📊 AWS GRC Automated IAM Audit Pipeline  
+# 📊 AWS-GRC Automated IAM Audit Pipeline  
 ### Continuous Cloud Compliance Evidence for Modern GRC Teams
 
 > **Positioning:** Enterprise-Style GRC Automation Proof-of-Concept  
