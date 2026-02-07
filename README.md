@@ -94,16 +94,24 @@ This pipeline shifts GRC to:
 ### 1️⃣ Scheduled Compliance Monitoring
 EventBridge automatically triggers the pipeline (example: every Sunday at midnight).
 
+<img width="1323" height="626" alt="image" src="https://github.com/user-attachments/assets/f7825cfa-2517-4f19-8060-1ab509fa650b" />
+
+
 ### 2️⃣ Automated Evidence Collection
 Lambda runs a Python script that:
 - Pulls all IAM users  
 - Captures username, ARN, creation timestamp  
-- Generates structured audit report  
+- Generates structured audit report
+
+<img width="1705" height="676" alt="image" src="https://github.com/user-attachments/assets/04a1a790-44f2-487f-8c7c-f2d1318d3712" />
+
 
 ### 3️⃣ Immutable Evidence Storage
 Reports are stored in S3 using:
 
 evidence/YYYY-MM-DD/iam_users_report_HHMMSS.txt
+
+<img width="1414" height="309" alt="image" src="https://github.com/user-attachments/assets/113a15cc-7d40-49b7-9d45-746fa52fc98c" />
 
 
 Creates historical, timestamped audit proof.
@@ -112,7 +120,10 @@ Creates historical, timestamped audit proof.
 SNS sends confirmation including:
 - Evidence location  
 - User count  
-- Success or failure status  
+- Success or failure status
+
+<img width="1268" height="571" alt="image" src="https://github.com/user-attachments/assets/b776f7d8-d125-49a6-a178-a8e05353ad08" />
+
 
 ---
 
