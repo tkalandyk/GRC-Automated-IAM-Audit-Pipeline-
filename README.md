@@ -38,6 +38,11 @@ Demonstrates real-world capability in:
 
 ---
 
+
+[![GRC Automated IAM Audit Pipeline Demo](https://github.com/user-attachments/assets/85891451-debc-4fd9-9c17-4e2ba48cf085)](https://youtu.be/Nv-MAXMSAHM)
+
+
+
 ## 🚨 The Problem With Traditional GRC Audits
 
 ### Old Model
